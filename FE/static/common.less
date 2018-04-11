@@ -1,0 +1,69 @@
+@blueBg: #409EFF;
+@whiteText: #fff;
+@gray: #989898;
+a, button, input[type="button"] {
+  cursor: pointer;
+}
+
+.cancel-btn{
+  background: #fff!important;
+  border: 1px solid blue!important;
+  color: blue!important;
+}
+
+.title-head{
+  margin-bottom: 10px;
+  text-align: left;
+  border-bottom: 1px solid @gray;
+  padding-bottom: 10px;
+}
+
+button, input[type="button"] {
+  height: 40px;
+  width: 100px;
+  background-color: @blueBg;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  // margin: 20px auto;
+}
+
+input{
+  box-sizing: border-box;
+  border: 1px solid #d8dce5;
+  border-radius: 4px;
+  width: 200px;
+  height: 30px;
+  padding: 0 15px;
+  font-size: 12px;
+  color: @gray;
+}
+.big-btn{
+  height: 30px;
+  width: 100px;
+  background-color: @blueBg;
+  color: @whiteText;
+  border: none;
+  border-radius: 4px;
+  line-height: 30px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.el-table th>.cell{
+  text-align: center;
+}
+
+.el-table .el-table__body-wrapper{
+  overflow: hidden;
+}
+
+.el-select{
+  width: 200px;
+
+  .el-input__inner{
+    height: 30px;
+    font-size: 12px;
+      color: @gray;
+  }
+}
